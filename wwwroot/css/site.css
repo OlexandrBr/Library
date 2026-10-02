@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #f4f1ea;
+    color: #2b2620;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+nav {
+    background: #3b2f25;
+    padding: 14px 24px;
+}
+
+nav a {
+    color: #f4f1ea;
+    text-decoration: none;
+    margin-right: 22px;
+}
+
+nav a:hover {
+    color: #e0a84c;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd6c8;
+}
+
+th {
+    background: #e8e1d3;
+}
+
+form label {
+    display: block;
+    margin: 14px 0 4px;
+}
+
+input, select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #b9b0a0;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+span {
+    display: block;
+    color: #b3261e;
+    font-size: .9rem;
+}
+
+button {
+    margin-top: 18px;
+    padding: 9px 20px;
+    background: #3b2f25;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button.delete {
+    margin: 0;
+    padding: 5px 12px;
+    background: #b3261e;
+    font-size: .9rem;
+}

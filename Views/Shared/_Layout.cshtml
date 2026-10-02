@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Бібліотека</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="Books" asp-action="Index">Книги</a>
+        <a asp-controller="Books" asp-action="Create">Додати книгу</a>
+        <a asp-controller="Authors" asp-action="Create">Додати автора</a>
+    </nav>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>

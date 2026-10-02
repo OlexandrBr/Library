@@ -1,0 +1,15 @@
+@model Author
+
+<h1>Додати автора</h1>
+
+<form asp-action="Create" method="post">
+    <label asp-for="Name">Ім'я</label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span>
+
+    <label asp-for="Country">Країна</label>
+    <input asp-for="Country" />
+    <span asp-validation-for="Country"></span>
+
+    <button type="submit">Зберегти</button>
+</form>
